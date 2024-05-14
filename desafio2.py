@@ -124,7 +124,7 @@ def main():
             exibir_extrato(saldo, extrato=extrato)
             
         elif opcao == "nu":
-            criar_usuarios(usuarios)
+            criar_usuario(usuarios)
             
         elif opcao == "nc":
             numero_conta = len(contas) + 1
